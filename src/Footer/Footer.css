@@ -1,0 +1,63 @@
+/* Estofados Oliveira © 2022. Todos direitos reservados. */
+/* --------------------------------------------------------- Footer */
+
+footer{
+    background-color: #000000;
+    width: 100%;
+}
+
+/* NF = Nav do Footer */
+.NF {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+/* UF = UL do Footer */
+.UF{
+    display: flex;
+    padding-inline-start: 0px;
+    margin: 0px;
+}
+
+/* LF,LIF = LI do Footer */
+.LIF{
+    margin: 5px;
+}
+
+.LF{
+    list-style: none;
+    font-size: 16px;
+    color: #FFFFFF;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.UF .LF{
+    display: flex;
+    height: 100px;
+    align-items:center;
+}
+
+@media (max-width: 700px) {
+
+    .LF{
+        font-size: 13px;
+    }
+
+    .LIF{
+        margin: 5px;
+    }
+
+    .NF {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}

@@ -1,0 +1,445 @@
+:root{
+    background-color: rgb(242,242,242);
+}
+
+/* --------------------------------------------------------- BANNER */
+
+.SB{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.DB{
+    /* width: 100%; */
+    /* max-width: 1544px; */
+    /* height: 672px; */
+    /* max-height: 656px; */
+    position: relative;
+}
+
+.SB img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    transition: opacity 800ms;
+    border: 0px solid rgba(0, 0, 0, 0);
+    /* border-radius: 20px; */
+    /* box-shadow: 7px 7PX 10px rgba(20, 20, 20, 0.39); */
+}
+
+.SB img.selected{
+    opacity: 1; 
+}
+
+/* --------------------------------------------------------- P do Body */
+
+/* PB = P do body */
+.PB{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #7590b9;
+    text-shadow: 3px 3px #181818;
+}
+
+@media (max-width: 800px) {
+
+    .PB{
+        font-size: 35px;
+        text-shadow: 2px 2px #181818;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .PB{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .PB{
+        font-size: 18px;
+        text-shadow: 1.2px 1.2px #181818;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .PB{
+        font-size: 15px;
+        text-shadow: 1px 1px #181818;
+    }
+}
+
+/* --------------------------------------------------------- Div do Body */
+
+/* DIB,DB = Div do Body */
+.DIB{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.IMG{   
+    width:590px;
+    /* height: 500px; */
+    border: 0.5px solid rgba(0, 0, 0, 0.37); 
+}
+
+.LMG{
+    margin-right: 20px;
+}
+
+.LIMG{
+    margin-left: 20px;
+}
+
+/* ----------------------------------------------------------- Section do Body */
+
+.SEB{
+    border-top: 0.0625rem solid #e8e8e8;
+    background-color: #ffffff;
+    list-style: none;
+    height: 90px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.UB{
+    display: flex;
+    height:60px;
+    padding-inline-start: 0px;
+}
+
+.LB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height:60px;
+    width: 600px;  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------------- Section de Comentários do Body */
+
+.SECB{
+    justify-content: center;
+    background-color: #ffffff;
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.ULB{
+    justify-content: center;
+    display: flex;
+    /* height: 180px; */
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.274);
+    border-radius: 5px;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    background-color: #f4f0f0;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.LC{
+    border-left: 2px solid #18181817;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height:180px;
+    width: 200px;  
+    text-align: center;
+    font-size: 15px;
+}
+
+.LIB{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height:180px;
+    width: 160px;  
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ Responsividade */
+
+@media (max-width:1900px){ /* --------------------------------------- 1900px*/
+
+    .IMG{   
+        width:847px;
+    }
+
+    .LC{
+        width: 265px;  
+    }
+
+    .LIB{
+        width: 265px;  
+    }
+}
+
+@media (max-width:1860px){ /* --------------------------------------- 1860px*/
+
+    .IMG{   
+        width:828px;
+    }
+
+    .LC{
+        width: 259px;  
+    }
+
+    .LIB{
+        width: 259px;  
+    }
+}
+
+@media (max-width:1600px){ /* --------------------------------------- 1600px*/
+
+    .IMG{   
+        width:690px;
+    }
+
+    .LC{
+        width: 213px;  
+    }
+
+    .LIB{
+        width: 213px;  
+    }
+}
+
+@media (max-width:1559px){ /* --------------------------------------- 1559px*/
+
+    .IMG{   
+        width:678px;
+    }
+
+    .LC{
+        width: 209px;  
+    }
+
+    .LIB{
+        width: 209px;  
+    }
+}
+
+@media (max-width:1440px){ /* --------------------------------------- 1440px*/
+    
+    .IMG{   
+        width:617px;
+    }
+
+    .LC{
+        width: 190px;  
+    }
+
+    .LIB{
+        width: 190px;  
+    }
+}
+
+@media (max-width:1390px){ /* --------------------------------------- 1390px*/
+
+    .IMG{   
+        width:592px;
+    }
+
+    .LC{
+        width: 181px;  
+    }
+
+    .LIB{
+        width: 181px;  
+    }
+}
+
+@media (max-width:1024px){ /* --------------------------------------- 1024px*/
+
+    .IMG{   
+        width:410px;
+    }
+
+    .LC{
+        width: 120px;  
+    }
+
+    .LIB{
+        width: 120px;  
+    }
+}
+
+@media (max-width:975px){ /* --------------------------------------- 975px*/
+
+    .IMG{   
+        width:386px;
+    }
+
+    .LC{
+        width: 112px;  
+    }
+
+    .LIB{
+        width: 112px;  
+    }
+}
+
+@media (max-width:768px){ /* --------------------------------------- 768px*/
+
+    .IMG{   
+        width:281px;
+    }
+
+    .LC{
+        width: 300px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 300px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: block;
+        height: 480px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:730px){ /* --------------------------------------- 730px*/
+
+    .IMG{   
+        width:263px;
+    }
+
+    .LC{
+        width: 300px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 300px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: grid;
+        height: 480px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:425px){ /* --------------------------------------- 425px*/
+
+    .DIB{
+        display:grid;
+    }
+
+    .IMG{   
+        width:363px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+    
+    .LIMG{
+        margin-left: 0px;
+    }
+
+    .LC{
+        width: 170px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 170px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: grid;
+        height: 480px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .LB{
+        width:200px;
+    }
+}
+
+@media (max-width:375px){ /* --------------------------------------- 375px */
+
+    .IMG{   
+        width:303px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+    
+    .LIMG{
+        margin-left: 0px;
+    }
+
+    .LC{
+        width: 140px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 140px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: grid;
+        height: 480px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

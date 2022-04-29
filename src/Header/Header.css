@@ -1,0 +1,120 @@
+/*---------------------------------------------------------- Logo */
+
+.Logo{
+    width: 115px;
+}
+
+/* --------------------------------------------------------- Body do Menu */
+
+
+/* LH,LIH = LI do header */
+.LIH{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    width: 100px;
+    /* height: 100px; */
+    text-transform:capitalize;
+}
+
+/* UH = UL do Header */
+.UH {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+    margin:0px;
+}
+
+.PH{
+    padding-top:10px;
+    height: 54px;
+    margin: 0px;
+}
+
+.LIH:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+/* NH = Nav do Header */
+.NH {
+    background-color: #ffffff;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 0.0625rem solid #e8e8e8;
+}
+
+.NH,
+.UH {
+    display: flex;
+    flex-direction: row;
+}
+
+/* LH,LIH = Li do Header */
+.LH {
+    padding: 0 20px;
+    font-family: "Raleway";
+}
+
+/* -------------------------------------------------------------------- Botão */
+
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+/* LH,LIH = Li do Header */
+.LH:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(202, 202, 202, 0.24);
+}
+
+button:focus~.UH {
+    height: 230px;
+}
+
+/* ---------------------------------------------------------------------- Responsividade do Menu */
+
+@media (max-width: 714px) {
+
+    .NH,
+    .UH {
+        flex-direction: column;
+    }
+
+    .UH {
+        text-align: center;
+        align-items:center;
+        margin: 0;
+        height: 0;
+    }
+
+    .NH {
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: flex-start;
+    }
+
+    button {
+        display: flex;
+        margin-right:15px;
+    }
+
+    .LH,
+    .UH {
+        width: 100%;
+    }
+}
