@@ -3,7 +3,7 @@ import './Body.css';
 import SliderC from './sofa azul.png';
 import SliderD from './sofa-cinza.png';
 
-function Index({comments}){
+function Index () {
     return(
         <div>
             <body>
@@ -16,7 +16,7 @@ function Index({comments}){
                         <img id="BannerImages" src={SliderC} alt=""/>
                         <img id="BannerImages" src={SliderD} alt=""/>
                     </div>
-                </section> */}
+                </section>
                 <p className="PB">Venha Conhecer nossos Produtos</p>
                 {/* PB = P do Body */}
                 <div className="DIB">
@@ -37,20 +37,20 @@ function Index({comments}){
                     {/* SECB,SEB,SB = Section do Body */}
                         <ul className="ULB">
                             {/* ULB,UB = UL do Body */}
-                            <li className="LIB">{comments.name}</li> {/* LB,LIB = LI do Body */}
-                            <li className="LC">Lorem reiciendis iste tempore deserunt rebo cumque? Praesentium, culpa?</li>
+                            <li className="LIB">Joao</li> {/* LB,LIB = LI do Body */}
+                            <li className="LC">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla optio id libero</li>
                             {/* LC = LI Comentário  */}
                         </ul>
                         <ul className="ULB">
                             {/* ULB,UB = UL do Body */}
-                            <li className="LIB">{comments.name}</li> {/* LB,LIB = LI do Body */}
-                            <li className="LC">Lorem Imunt tenetur voluptate ratione, facilis temporibus? Quaerat.</li>
+                            <li className="LIB">Pedro</li> {/* LB,LIB = LI do Body */}
+                            <li className="LC">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla optio id libero</li>
                             {/* LC = LI Comentário  */} 
                         </ul>    
                         <ul className="ULB">
                             {/* ULB,UB = UL do Body */}
-                            <li className="LIB">Reginaldo Andrade Palhares</li> {/* LB,LIB = LI do Body */}
-                            <li className="LC">lorem lique praesentium perferendis soluta asperioecto adipisci. Nemo.</li>
+                            <li className="LIB">Augusto</li> {/* LB,LIB = LI do Body */}
+                            <li className="LC">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nulla optio id libero</li>
                             {/* LC = LI Comentário  */} 
                         </ul>            
                 </section>
