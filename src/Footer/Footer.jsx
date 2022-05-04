@@ -15,10 +15,10 @@ function Footer(){
                         <li className="LF">Estofados Oliveira ©copy 2022. Todos direitos reservados.</li>  
                     </div>
                     <ul class="UF">
-                        <li className="LF"><a className="LIF" href=""><img src={LogoFacebook} alt="Facebook"/></a></li>            
-                        <li className="LF"><a className="LIF" href=""><img src={LogoInstagram} alt="Instagram"/></a></li>  
-                        <li className="LF"><a className="LIF" href=""><img src={LogoWhasapp} alt="Whatsapp"/></a></li>
-                        {/* LF,LIF = LI do Footer */}
+                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoFacebook} alt="Facebook"/></a></li>            
+                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoInstagram} alt="Instagram"/></a></li>  
+                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoWhasapp} alt="Whatsapp"/></a></li>
+                        {/* LF,LIF = LI do Footer ------- IF = Imagem do Footer */}
                     </ul>          
                 </nav>
             </footer>

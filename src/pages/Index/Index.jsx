@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Index from '../../Components/Body/Body';
+import Index from '../../Components/Index/PaginaIndex';
 import axios from 'axios';
-import H from '../../Components/Body/teste';
+import Slider from '../../Components/Index/Slider/Slider';
 
 const PagesIndex = () =>{
   

@@ -82,7 +82,7 @@ button:hover {
 }
 
 button:focus~.UH {
-    height: 230px;
+    height: 320px;
 }
 
 /* ---------------------------------------------------------------------- Responsividade do Menu */
@@ -116,5 +116,48 @@ button:focus~.UH {
     .LH,
     .UH {
         width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .LH{
+        padding: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .LH{
+        padding: 16px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .LH{
+        padding: 14px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .LH{
+        padding: 12px;
+    }
+}
+
+@media (max-width:280px) {
+
+    .NH {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 280px) {
+
+    button {
+        margin-right:0px;
     }
 }

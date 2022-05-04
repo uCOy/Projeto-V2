@@ -1,0 +1,171 @@
+:root{
+    background-color: rgb(242,242,242);
+}
+
+/* --------------------------------------------------------- Slider */
+
+/* DS = Div do Slider */
+.DS{
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(242,242,242);
+}
+
+/* IS = Imagem do Slider */
+.IS{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-height: 440px;
+}
+
+.swiper-horizontal>
+.swiper-pagination-bullets 
+.swiper-pagination-bullet, 
+.swiper-pagination-horizontal
+.swiper-pagination-bullets 
+.swiper-pagination-bullet {
+    background-color: #181818;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    color: #181818;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    color: #181818;
+}
+
+/* --------------------------------------------------------- P do Body */
+
+/* PB = P do body */
+.PB{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #7590b9;
+    text-shadow: 3px 3px #181818;
+    background-color: rgb(242,242,242);
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* --------------------------------------------------------- Div do Body */
+
+/* DIB,DB = Div do Body */
+.DIB{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: rgb(242,242,242);
+}
+
+.IMG{   
+    width:590px;
+    /* height: 500px; */
+    border: 0.5px solid rgba(0, 0, 0, 0.37); 
+}
+
+.LMG{
+    margin-right: 20px;
+}
+
+.LIMG{
+    margin-left: 20px;
+}
+
+/* ----------------------------------------------------------- Section do Body */
+
+/* SEB = Section do Body */
+.SEB{
+    border-top: 0.0625rem solid #e8e8e8;
+    background-color: #ffffff;
+    list-style: none;
+    height: 90px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* UB = UL do Body */
+.UB{
+    display: flex;
+    height:60px;
+    padding-inline-start: 0px;
+}
+
+/* LB = LI do Body */
+.LB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height:60px;
+    width: 600px;  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------------------------------- Section de Comentários do Body */
+
+/* SECB = Section do Body */
+.SECB{
+    justify-content: center;
+    background-color: #ffffff;
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 35px;
+}
+
+/* ULB = UL do Body*/
+.ULB{
+    justify-content: center;
+    display: flex;
+    /* height: 180px; */
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.274);
+    border-radius: 5px;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    background-color: #f4f0f0;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+/* LC = LI Comentario */
+.LC{
+    border-left: 2px solid #18181817;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height:180px;
+    width: 200px;  
+    text-align: center;
+    font-size: 15px;
+}
+
+/* LIB = LI do Body */
+.LIB{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height:180px;
+    width: 160px;  
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}

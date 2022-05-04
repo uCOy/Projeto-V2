@@ -59,5 +59,27 @@ footer{
         padding-left: 30px;
         padding-right: 30px;
     }
+}
 
+@media (max-width:320px) {
+
+    .LF{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:280px) {
+
+    .LF{
+        font-size: 10px;
+    }
+
+    .IF{
+        width: 40px;
+    }
+
+    .NF {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
