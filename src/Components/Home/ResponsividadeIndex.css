@@ -273,7 +273,8 @@
 
     .LB{
         font-size: 20px;
-        height:80px;
+        height:90px;
+        width: 375px;
     }
 
     .LC{
@@ -282,10 +283,6 @@
 
     .LIB{
         width: 183px;
-    }
-
-    .LB{
-        width:200px;
     }
 }
 
@@ -324,7 +321,24 @@
     }
 
     .PB{
-        font-size: 16px;
+        font-size: 16px; 
+    }
+
+    .LB{
+        width: 220px;
+    }
+}
+
+@media (max-width:319px){ /* ----------------------------------------- 319px */
+
+    .DS{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .SECB{
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
@@ -346,10 +360,4 @@
         padding-right: 10px;
         padding-left: 10px;
     }
-
-    .DS{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
 }

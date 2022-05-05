@@ -10,7 +10,7 @@ function Comentario() {
             <ul className="UB">
                 {/* UB,ULB = UL do Body */}
                 <li className="LB">Comentários dos Clientes</li>
-                {/* LB,LIB = LI do Body */}
+                {/* LB,LIB = P do Body */}
             </ul>              
             </section>
             <section className="SECB">

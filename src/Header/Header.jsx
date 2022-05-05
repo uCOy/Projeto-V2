@@ -9,7 +9,7 @@ function Header(){
                 <nav className="NH">
                     {/* NH = Nav do Header */}
                     <div>
-                        <a href=""><img src={Logo} className="Logo" alt="Logo"/></a>
+                        <a href="/"><img src={Logo} className="Logo" alt="Logo"/></a>
                     </div>
                     <button>&#9776;</button>
                     <ul className="UH">
@@ -17,7 +17,7 @@ function Header(){
                         <li className="LH"><p className="PH"><a href="" className="LIH">Sobre Nós</a></p></li> 
                         <li className="LH"><p className="PH"><a href="" className="LIH">Sofás</a></p></li>
                         <li className="LH"><p className="PH"><a href="" className="LIH">Produtos</a></p></li>
-                        <li className="LH"><p className="PH"><a href="" className="LIH">Contato</a></p></li>   
+                        <li className="LH"><p className="PH"><a href="/contato" className="LIH">Contato</a></p></li>   
                         {/* LH,LIH = Li do Header */}
                     </ul>
                 </nav>

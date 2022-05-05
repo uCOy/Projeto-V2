@@ -1,15 +1,11 @@
-:root{
-    background-color: rgb(242,242,242);
-}
-
 /* --------------------------------------------------------- Slider */
 
 /* DS = Div do Slider */
 .DS{
-    padding-top: 35px;
     padding-left: 80px;
     padding-right: 80px;
     background-color: rgb(242,242,242);
+    padding-bottom: 35px;
 }
 
 /* IS = Imagem do Slider */
@@ -26,15 +22,15 @@
 .swiper-pagination-horizontal
 .swiper-pagination-bullets 
 .swiper-pagination-bullet {
-    background-color: #181818;
+    background-color: #ffffff;
 }
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-    color: #181818;
+    color: #ffffff;
 }
 
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    color: #181818;
+    color: #ffffff;
 }
 
 /* --------------------------------------------------------- P do Body */
@@ -47,12 +43,12 @@
     display: flex;
     font-size: 45px;
     font-weight: bold;
-    font-family: Arial;
-    color: #7590b9;
-    text-shadow: 3px 3px #181818;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.836);
+    /* text-shadow: 3px 3px #181818; */
     background-color: rgb(242,242,242);
     margin: 0px;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-bottom: 30px;
 }
 
@@ -70,7 +66,8 @@
 .IMG{   
     width:590px;
     /* height: 500px; */
-    border: 0.5px solid rgba(0, 0, 0, 0.37); 
+    border: 0.5px solid rgba(0, 0, 0, 0.37);
+    min-width: 260px; 
 }
 
 .LMG{
@@ -91,7 +88,6 @@
     height: 90px;
     justify-content: center;
     display: flex;
-    align-items: center;
 }
 
 /* UB = UL do Body */
@@ -107,13 +103,15 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    height:60px;
-    width: 600px;  
+    height: 90px;
+    width: 100%;  
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Raleway';
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.836);
 }
 
 /* ---------------------------------------------------------- Section de Comentários do Body */

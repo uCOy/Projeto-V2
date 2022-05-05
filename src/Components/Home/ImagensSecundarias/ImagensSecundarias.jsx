@@ -7,7 +7,6 @@ import ImgB from './sofa-cinza.png';
 function ImagensSecundarias() {
     return(
         <div>
-            <p className="PB">Venha Conhecer nossos Produtos</p>
             {/* PB = P do Body */}
             <div className="DIB">
                 {/* DB,DIB = Div do Body */}

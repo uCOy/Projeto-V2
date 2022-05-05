@@ -6,7 +6,7 @@ import { BrowserRouter as Router,
   } from "react-router-dom";
 
 import PagesContatos from "../pages/Contatos/contatos";
-import PagesIndex from '../pages/Index/Index';
+import PagesIndex from '../pages/Home/Index';
 
 const Root = () => {
   return (

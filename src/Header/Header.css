@@ -13,7 +13,6 @@
     font-size: 20px;
     text-decoration: none;
     width: 100px;
-    /* height: 100px; */
     text-transform:capitalize;
 }
 
@@ -34,7 +33,6 @@
 
 .LIH:hover{
     color: rgb(0, 0, 0);
-
 }
 
 /* NH = Nav do Header */
@@ -74,11 +72,15 @@ button {
 }
 
 /* LH,LIH = Li do Header */
-.LH:hover,
+/* .LH:hover,
 button:hover {
     cursor: pointer;
     opacity: 0.8;
-    background-color: rgba(202, 202, 202, 0.24);
+    background-color: rgba(27, 31, 34, 0.068);
+} */
+
+.LIH:hover{
+    color: rgb(2, 142, 223);
 }
 
 button:focus~.UH {
@@ -117,6 +119,13 @@ button:focus~.UH {
     .UH {
         width: 100%;
     }
+
+    .LH:hover,
+    button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(202, 202, 202, 0.24);
+}
 }
 
 @media (max-width: 760px) {
