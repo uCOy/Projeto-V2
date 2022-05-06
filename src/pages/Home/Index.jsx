@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import Index from '../../Components/Home/PaginaIndex';
 import axios from 'axios';
+import Slider from '../../Components/Home/Slider/Slider';
+import Comentario from '../../Components/Home/Comentario/Comentario';
+import ImagensSecundarias from '../../Components/Home/ImagensSecundarias/ImagensSecundarias';
 
 const PagesIndex = () =>{
   
   return(
     <div>
-      <Index/>
+        <Slider/>
+        <ImagensSecundarias/>
+        <Comentario/>
     </div>
   )
 

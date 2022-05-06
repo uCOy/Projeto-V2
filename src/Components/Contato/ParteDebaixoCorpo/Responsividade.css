@@ -5,7 +5,7 @@
 
 @media only screen and (max-width: 1440px){
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 240px;
     margin-top: 6px;
@@ -193,7 +193,7 @@
 
 @media only screen and (max-width: 1366px){
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 270px;
     margin-top: 6px;
@@ -380,7 +380,7 @@
 
 @media only screen and (max-width: 1024px){
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 240px;
     margin-top: 6px;
@@ -634,7 +634,7 @@
 
 @media only screen and (max-width: 768px){
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 270px;
     margin-top: 6px;
@@ -787,7 +787,7 @@
 
 @media only screen and (max-width: 540px){
     .fundo-img {
-        background-image: url(../../img/sala-de-estar-moderna.jpg);
+        background-image: url(../../../img/sala-de-estar-moderna.jpg);
         width: 100%;
         min-height: 280px;
         margin-top: 6px;
@@ -1016,7 +1016,7 @@
 
 @media only screen and (max-width: 425px){
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 300px;
     margin-top: 6px;
@@ -1359,7 +1359,7 @@
     animation: text1 2s 1;
   }
   .fundo-img {
-    background-image: url(../../img/sala-de-estar-moderna.jpg);
+    background-image: url(../../../img/sala-de-estar-moderna.jpg);
     width: 100%;
     min-height: 280px;
     margin-top: 6px;

@@ -1,7 +1,7 @@
 import { Navigation, Pagination, Scrollbar, A11y,} from 'swiper';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
-import img from './sofa-cinza.png';
+import img from '../Img/sofa azul.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
