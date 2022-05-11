@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     width:100%;
-    max-height: 440px;
+    /* height: 100px; */
 }
 
 .swiper-horizontal>
@@ -22,15 +22,15 @@
 .swiper-pagination-horizontal
 .swiper-pagination-bullets 
 .swiper-pagination-bullet {
-    background-color: #ffffff;
+    background-color: #ffffff70;
 }
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
-    color: #ffffff;
+    color: #ffffff70;
 }
 
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-    color: #ffffff;
+    color: #ffffff70;
 }
 
 /* --------------------------------------------------------- P do Body */

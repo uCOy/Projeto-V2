@@ -1,7 +1,9 @@
 import { Navigation, Pagination, Scrollbar, A11y,} from 'swiper';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
-import img from '../Img/sofa azul.png';
+import Slider1 from './Img/SLIDER 900.png';
+import Slider2 from './Img/SLIDER.png';
+import Slider3 from '../ImagensSecundarias/Img/sofa azul.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -24,9 +26,9 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       loop={true}
     >
-      <SwiperSlide><img className="IS" src={img}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={img}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={img}/></SwiperSlide>
+      <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide>
+      <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
+      <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
       {/* IS = Imagem do Slider */}
     </Swiper>
   </div>
