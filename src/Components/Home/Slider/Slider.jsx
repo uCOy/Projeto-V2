@@ -3,7 +3,7 @@ import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
 import Slider1 from './Img/SLIDER 900.png';
 import Slider2 from './Img/SLIDER.png';
-import Slider3 from '../ImagensSecundarias/Img/sofa azul.png';
+import Slider3 from './Img/slider-2.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -28,7 +28,7 @@ const Slider = () => {
     >
       <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide>
       <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
+      <SwiperSlide><img className="IS" src={Slider3}/></SwiperSlide>
       {/* IS = Imagem do Slider */}
     </Swiper>
   </div>

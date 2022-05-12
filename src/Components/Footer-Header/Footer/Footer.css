@@ -45,6 +45,22 @@ footer{
     align-items:center;
 }
 
+@media (max-width: 712px) {
+
+    .LF{
+        font-size: 13px;
+    }
+
+    .LIF{
+        margin: 5px;
+    }
+
+    .NF {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 @media (max-width: 700px) {
 
     .LF{

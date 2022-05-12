@@ -1,8 +1,8 @@
 .fundo-img {
-    background-image: url(../../../img/pretaebranca.jpg);
-    width: 100%;
-    min-height: 240px;
+    background-image: url(../Img/beautiful-interior-room-design-concept.jpg);
+    min-height: 200px;
     margin-top: 6px;
+    position: sticky;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -13,9 +13,9 @@
   h1{
     text-align: center;
     font-family: "Raleway", sans-serif;
+    font-size: 36px;
     text-transform: inherit;
-    font-size: 45px;
-    padding: 50px 0 0;
+    padding: 35px 0 0;
     color: rgb(0, 0, 0);
     animation: text 2s 1;
   }
@@ -29,13 +29,17 @@
       margin-bottom: -10px;
     }
   }
+  .paragrafo ul {
+    margin: 0px;
+    padding: 0px;
+  }
   .paragrafo ul li {
     list-style: none;
     text-align: center;
     font-style: italic;
     color: rgb(0, 0, 0);
     font-family: "Open Sans", sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     animation: text1 2s 1;
   }
   @keyframes text1 {

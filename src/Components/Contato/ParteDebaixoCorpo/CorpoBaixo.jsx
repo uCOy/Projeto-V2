@@ -2,7 +2,7 @@ import React from 'react';
 import './CorpoBaixo.css';
 import './Responsividade.css';
 
-const ParteDebaixoCorpo = (ParteDebaixoCorpo) => {
+const ParteDebaixoCorpo = () => {
     return ( 
         <section class="corpo-contato">
         <div class="dados-corpo  animacao">
@@ -10,14 +10,14 @@ const ParteDebaixoCorpo = (ParteDebaixoCorpo) => {
           <a href="#">(19) 98901-3589</a>
           <br />
           <br />
-          <a href="#">ESTOFADOSOLIVEIRA@GMAIL.COM</a>
+          <a href="mailto:estofadosoliveiracontato@gmail.com">ESTOFADOSOLIVEIRACONTATO@GMAIL.COM</a>
           <br />
           <br />
           <a href="$">FACEBOOK.COM/ESTOFADOSOLIVEIRA</a>
         </div>
         <div class="horarios-corpo animacao">
           <h2 class="h2-corpo-contato">Horários</h2>
-          <a href="#">
+          <a href="https://www.google.com/maps/place/Estofados+oliveira/@-22.94158,-47.209622,13z/data=!4m12!1m6!3m5!1s0x0:0xe2d0aa63c7e2a39a!2sEstofados+oliveira!8m2!3d-22.94158!4d-47.2096221!3m4!1s0x0:0xe2d0aa63c7e2a39a!8m2!3d-22.94158!4d-47.2096221?hl=pt-BR">
             SEGUNDA À SEXTA: 08 ÀS 18
             <br />
             <br />

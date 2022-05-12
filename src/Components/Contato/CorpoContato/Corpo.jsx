@@ -1,10 +1,21 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
 import './Corpo.css';
 import './Responsividade.css';
 
-const CorpoContato = ({CropoContato}) => {
+const CorpoContato = () => {
+    function sendEmail(e){
+      e.preventDefault();
+
+      emailjs.sendForm('service_8m0qu7x', 'template_dzs30fb', e.target,'soKLycPI6FMu0mJ2K')
+      .then(res=>{
+        swal('Enviado', 'E-mail enviado com sucesso !', 'success');
+      })
+    };
+
     return (
-        <section class="alinhamento">
+        <main class="alinhamento">
         <div class="alinhadiv1">
           <h2 class="titulo">Google Maps</h2>
           <iframe
@@ -14,45 +25,53 @@ const CorpoContato = ({CropoContato}) => {
         </div>
         <div class="alinhadiv2">
           <h2 class="titulo">Formulário</h2>
+          <form class="formulario" onSubmit={sendEmail}>
           <div class="mb-3">
             <label for="form" class="form-label">Nome:</label>
             <input
-              type="name"
+              name="name"
+              type="text"
               class="form-control"
               id="form"
-              placeholder="Digite o seu nome"
+              required placeholder="Digite o seu nome"
             />
           </div>
           <div class="mb-3">
             <label for="form" class="form-label">E-mail:</label>
             <input
+              name="email"
               type="email"
               class="form-control"
               id="form"
-              placeholder="Digite o seu E-mail"
+              required placeholder="Digite o seu E-mail"
             />
           </div>
           <div class="mb-3">
             <label for="form" class="form-label">Assunto:</label>
             <input
-              type="assunto"
+              name="subject"
+              type="text"
               class="form-control"
               id="form"
-              placeholder="Digite o assunto da mensagem"
+              required placeholder="Digite o assunto da mensagem"
             />
           </div>
           <div class="mb-3">
             <label for="form-message" class="form-label">Mensagem:</label>
             <textarea
+              type="massege"
+              name="massege"
               class="form-control"
               id="form"
               rows="3"
-              placeholder="Deixe aqui sua mensagem"
+              required placeholder="Deixe aqui sua mensagem"
             ></textarea>
           </div>
-          <h2 type="button" class="botao">Enviar</h2>
+          <input type="submit" class="botao" value="Enviar"></input>
+          </form>
         </div>
-      </section>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      </main>
     );
 }
  

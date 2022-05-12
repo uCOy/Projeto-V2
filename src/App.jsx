@@ -1,5 +1,5 @@
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
+import Header from './Components/Footer-Header/Header/Header';
+import Footer from './Components/Footer-Header/Footer/Footer';
 import Root from './Routes/Route';
 
 function App() {

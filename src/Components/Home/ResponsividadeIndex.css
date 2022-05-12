@@ -3,7 +3,6 @@
 
     .PB{
         font-size: 35px;
-        text-shadow: 2px 2px #181818;
     }
 }
 
@@ -18,7 +17,6 @@
 
     .PB{
         font-size: 22px;
-        text-shadow: 1.2px 1.2px #181818;
     }
 }
 
@@ -26,7 +24,6 @@
 
     .PB{
         font-size: 15px;
-        text-shadow: 1px 1px #181818;
     }
 }
 
@@ -51,6 +48,25 @@
     }
 }
 
+@media (max-width:1920px){ /* --------------------------------------- 1920px*/
+
+    .IMG{   
+        width:851px;
+    }
+
+    .LC{
+        width: 268px;  
+    }
+
+    .LIB{
+        width: 268px;  
+    }
+
+    .IS{
+        max-height: 700px;
+    }
+}
+
 @media (max-width:1900px){ /* --------------------------------------- 1900px*/
 
     .IMG{   
@@ -69,6 +85,26 @@
         max-height: 600px;
     }
 }
+
+@media (max-width:1879px){ /* --------------------------------------- 1879px*/
+
+    .IMG{   
+        width:831px;
+    }
+
+    .LC{
+        width: 261px;  
+    }
+
+    .LIB{
+        width: 261px;  
+    }
+
+    .IS{
+        max-height: 600px;
+    }
+}
+
 
 @media (max-width:1860px){ /* --------------------------------------- 1860px*/
 
@@ -149,6 +185,21 @@
     }
 }
 
+@media (max-width:1389px){ /* --------------------------------------- 1389px*/
+
+    .IMG{   
+        width:413px;
+    }
+
+    .LC{
+        width: 121px;  
+    }
+
+    .LIB{
+        width: 121px;  
+    }
+}
+
 @media (max-width:1024px){ /* --------------------------------------- 1024px*/
 
     .IMG{   
@@ -179,11 +230,115 @@
     }
 }
 
+@media (max-width:912px){ /* --------------------------------------- 912px*/
+
+    .PB{
+        font-size: 44px;
+    }
+
+    .DIB{
+        /* display:grid; */
+        padding-bottom: 10px;
+    }
+
+    .IMG{   
+        width:356px;
+        margin-bottom: 20px;
+    }
+
+    .LC{
+        width: 373px;  
+    }
+
+    .LIB{
+        width: 373px;  
+    }
+    
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .SECB{
+        display: grid;
+        height: 630px;
+    }
+}
+
+@media (max-width:820px){ /* --------------------------------------- 820px*/
+
+    .IMG{   
+        width:310px;
+        height: 250px;
+    }
+
+    .PB{
+        font-size: 44px;
+    }
+
+    .LC{
+        width: 329px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 329px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: grid;
+        height: 480px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:800px){ /* --------------------------------------- 800px*/
+
+    .PB{
+        font-size: 42px;
+    }
+
+    .IMG{   
+        width:299px;
+        height: 250px;
+    }
+
+    .LC{
+        width: 321px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 321px;
+        height: 140px;  
+    }
+
+    .SECB{
+        display: grid;
+        height: 480px;
+    }
+
+    .ULB{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
 @media (max-width:768px){ /* --------------------------------------- 768px*/
 
     .IMG{   
         width:284px;
         height: 200px;
+    }
+
+    .PB{
+        font-size: 40px;
     }
 
     .LC{
@@ -225,16 +380,107 @@
 
 }
 
-@media (max-width:600px){
+@media (max-width:712px){ /* --------------------------------------- 712px*/
 
-    .DIB{
-        display:grid;
-        padding-bottom: 10px;
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .IMG{   
+        width:306.5px;
+    }
+
+    .LC{
+        width: 325px;  
+        height: 140px;
+    }
+
+    .LIB{
+        width: 325px;
+        height: 140px;  
+    }
+
+}
+
+@media (max-width:600px){ /* --------------------------------------- 600px*/
+
+    .PB{
+        font-size: 36px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+
+    .IMG{   
+        width:190px;
+        height: 200px;
+    }
+    
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .LC{
+        width: 268px;  
+        height: 180px;
+    }
+    
+    .LIB{
+        width: 268px;
+        height: 180px;  
     }
 
     .ULB{
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .SECB{
+        height: 600px;
+    }
+}
+
+@media (max-width:540px){ /* --------------------------------------- 540px*/
+
+    .DIB{
+        display:grid;
+        padding-bottom: 0px;
+    }
+
+    .LMG{
+        margin-right: 10px;
+    }
+
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .PB{
+        font-size: 32px;
+    }
+
+    .IMG{   
+        width: 482px;
+        margin-bottom: 20px;
+        height: 227px;
+    }
+
+    .LB{
+        font-size: 20px;
+        height:90px;
+        width: 375px;
+    }
+
+    .LC{
+        width: 240px;  
+    }
+
+    .LIB{
+        width: 240px;
     }
 
     .LMG{
@@ -246,7 +492,7 @@
     }
 }
 
-@media (max-width:425px){ /* --------------------------------------- 425px*/
+@media (max-width:480px){ /* --------------------------------------- 480px*/
 
     .DS{
         padding-left: 30px;
@@ -255,12 +501,13 @@
 
     .DIB{
         display:grid;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
     }
 
     .IMG{   
-        width:365px;
-        margin-bottom: 20px;
+        width:422px;
+        margin-bottom: 35px;
+        height: 198.94px;
     }
 
     .LMG{
@@ -278,6 +525,33 @@
     }
 
     .LC{
+        width: 210px;  
+    }
+
+    .LIB{
+        width: 210px;
+    }
+
+    .PB{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:425px){ /* --------------------------------------- 425px*/
+
+    .IMG{   
+        width:365px;
+        margin-bottom: 35px;
+        height: 172.89px;
+    }
+
+    .LB{
+        font-size: 20px;
+        height:90px;
+        width: 375px;
+    }
+
+    .LC{
         width: 183px;  
     }
 
@@ -286,15 +560,82 @@
     }
 }
 
+@media (max-width:414px){ /* --------------------------------------- 414px*/
+
+    .PB{
+        font-size: 23px;
+    }
+
+    .IMG{   
+        width:355px;
+        margin-bottom: 35px;
+        height: 167.67px;
+    }
+
+    .LC{
+        width: 176px;  
+    }
+
+    .LIB{
+        width: 176px;
+    }
+}
+
+@media (max-width:393px){ /* --------------------------------------- 393px*/
+
+    .PB{
+        font-size: 22px;
+    }
+
+    .IMG{   
+        width:332px;
+        margin-bottom: 35px;
+        height: 156.31px;
+    }
+
+    .LC{
+        width: 165px;  
+    }
+
+    .LIB{
+        width: 165px;
+    }
+}
+
+@media (max-width:384px){ /* --------------------------------------- 393px*/
+
+    .PB{
+        font-size: 21px;
+    }
+
+    .IMG{   
+        width:325px;
+        margin-bottom: 35px;
+        height: 156.31px;
+    }
+
+    .LC{
+        width: 165px;  
+    }
+
+    .LIB{
+        width: 165px;
+    }
+
+    .SECB{
+        height: 600px;
+    }
+}
+
 @media (max-width:375px){ /* --------------------------------------- 375px */
 
     .PB{
-        font-size: 18px;
-        text-shadow: 1.2px 1.2px #181818;
+        font-size: 21px;
     }
 
     .IMG{   
         width:317px;
+        height: 149.2px;
     }
 
     .LC{
@@ -303,6 +644,46 @@
 
     .LIB{
         width: 158px; 
+    }
+}
+
+@media (max-width:360px){ /* --------------------------------------- 360px */
+
+    .PB{
+        font-size: 20px;
+    }
+
+    .IMG{   
+        width:301px;
+        height: 142.09px;
+    }
+
+    .LC{
+        width: 149px;  
+    }
+
+    .LIB{
+        width: 149px; 
+    }
+}
+
+@media (max-width:360px){ /* --------------------------------------- 360px */
+
+    .PB{
+        font-size: 19px;
+    }
+
+    .IMG{   
+        width: 295px;
+        height: 142.09px;
+    }
+
+    .LC{
+        width: 149px;  
+    }
+
+    .LIB{
+        width: 149px; 
     }
 }
 
@@ -315,6 +696,7 @@
 
     .IMG{   
         width:260px;
+        height: 123.16px;
     }
 
     .LC{
@@ -326,7 +708,7 @@
     }
 
     .PB{
-        font-size: 16px; 
+        font-size: 17px; 
     }
 
     .LB{
