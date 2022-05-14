@@ -362,6 +362,22 @@
     }
 }
 
+@media (max-width:756px){ /* --------------------------------------- 756px*/
+
+    .PB{
+        font-size: 39px;
+    }
+
+}
+
+@media (max-width:741px){ /* --------------------------------------- 741px*/
+
+    .PB{
+        font-size: 38px;
+    }
+
+}
+
 @media (max-width:730px){ /* --------------------------------------- 730px*/
 
     .IMG{   
@@ -376,6 +392,10 @@
     .LIB{
         width: 285px;
         height: 140px;  
+    }
+
+    .PB{
+        font-size: 36px;
     }
 
 }
@@ -443,6 +463,22 @@
     }
 }
 
+@media (max-width:596px){ /* --------------------------------------- 596px*/
+
+    .PB{
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width:566px){ /* --------------------------------------- 566px*/
+
+    .PB{
+        font-size: 32px;
+    }
+
+}
+
 @media (max-width:540px){ /* --------------------------------------- 540px*/
 
     .DIB{
@@ -460,7 +496,7 @@
     }
 
     .PB{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .IMG{   
@@ -490,6 +526,14 @@
     .LIMG{
         margin-left: 0px;
     }
+}
+
+@media (max-width:508px){ /* --------------------------------------- 508px*/
+
+    .PB{
+        font-size: 28px;
+    }
+
 }
 
 @media (max-width:480px){ /* --------------------------------------- 480px*/
@@ -533,8 +577,16 @@
     }
 
     .PB{
-        font-size: 28px;
+        font-size: 26px;
     }
+}
+
+@media (max-width:448px){ /* --------------------------------------- 448px*/
+
+    .PB{
+        font-size: 24px;
+    }
+
 }
 
 @media (max-width:425px){ /* --------------------------------------- 425px*/
@@ -558,13 +610,13 @@
     .LIB{
         width: 183px;
     }
+
+    .PB{
+        font-size: 22px;
+    }
 }
 
 @media (max-width:414px){ /* --------------------------------------- 414px*/
-
-    .PB{
-        font-size: 23px;
-    }
 
     .IMG{   
         width:355px;
@@ -630,7 +682,7 @@
 @media (max-width:375px){ /* --------------------------------------- 375px */
 
     .PB{
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .IMG{   
@@ -667,23 +719,17 @@
     }
 }
 
-@media (max-width:360px){ /* --------------------------------------- 360px */
+@media (max-width:359px){ /* --------------------------------------- 359px */
 
     .PB{
-        font-size: 19px;
+        font-size: 18px;
     }
+}
 
-    .IMG{   
-        width: 295px;
-        height: 142.09px;
-    }
+@media (max-width:328px){ /* --------------------------------------- 328px */
 
-    .LC{
-        width: 149px;  
-    }
-
-    .LIB{
-        width: 149px; 
+    .PB{
+        font-size: 16px;
     }
 }
 
