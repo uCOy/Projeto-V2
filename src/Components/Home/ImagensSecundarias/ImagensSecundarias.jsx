@@ -2,7 +2,7 @@ import React from 'react';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
 import ImgA from './Img/ImgA.png';
-import ImgB from './Img/sofa-cinza.png';
+import ImgB from './Img/ImgB.png';
 
 function ImagensSecundarias() {
     return(

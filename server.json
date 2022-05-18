@@ -1,0 +1,19 @@
+{
+    "comments": [
+    {
+        "id": 1,
+        "name": "João Silva Batista",
+        "comentario": "Recomendo, com seus produtos minha casa parece nova!"
+    },
+    {
+        "id": 2,
+        "name": "Pedro Amoreiras de Oliveira",
+        "comentario": "Muito Bom!"
+    },
+    {
+        "id": 3,
+        "name": "Algusto Rodriguez de Paiva",
+        "comentario": "Melhor site de todos!!"
+    }
+    ]
+}

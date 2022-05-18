@@ -80,7 +80,7 @@ button:hover {
 } */
 
 .LIH:hover{
-    color: rgb(2, 142, 223);
+    color: rgba(82, 76, 76, 0.836);
 }
 
 button:focus~.UH {

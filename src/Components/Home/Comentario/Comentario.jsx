@@ -1,29 +1,31 @@
 import React from 'react';
-import CardComment from '../../Card/Card';
+import {useState,useEffect} from 'react';
+import api from '../../Services/api';
+import CardComment from './ComentarioApi/Card';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
 
 function Comentario() {
 
-    const [comments, setComments] =  useState([]);
-        const[ comment, setComment] = useState('');
-    
+    const [promotions, setPromotions] =  useState([]);
+    const[ search, setSearch] = useState('');
 
-         useEffect(() => {
-           const params = {};
-           if (comment) {
-             params.title_like = comment;}
-             
-             const getComment = async () => {
-               try {
-                 const Comments = await api.get('/comments')
-                 setComments(Comments.data);
-                } catch (error){
-                  console.log(error);
-                }}
-                getComment();
 
-         }, [comment])
+     useEffect(() => {
+       const params = {};
+       if (search) {
+         params.title_like = search;}
+         
+         const getSeach = async () => {
+           try {
+             const promotions = await api.get('/comments') 
+             setPromotions(promotions.data);
+            } catch (error){
+              console.log(error);
+            }}
+            getSeach();
+
+     }, [search])
 
     return(
         <div>
@@ -31,13 +33,16 @@ function Comentario() {
             {/* SEB,SB,SECB = Section do Body */}
             <ul className="UB">
                 {/* UB,ULB = UL do Body */}
-                <li className="LB">Comentários dos Clientes</li>
+                <p className="PBB">Comentários dos Clientes</p>
                 {/* LB,LIB = P do Body */}
             </ul>              
             </section>
-            {comments.map((comments) =>(
-            <CardComment comment={comments} key={comments.id}/>
-           ) )} 
+            <section className="SECB">           
+            {/* SECB,SEB,SB = Section do Body */}
+            {promotions.map((comment) =>(
+              <CardComment comments={comment} key={comment.id}/>
+            ) )}  
+            </section>
         </div>
     )
 }

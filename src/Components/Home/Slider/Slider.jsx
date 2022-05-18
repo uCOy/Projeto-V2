@@ -1,9 +1,9 @@
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
-import Slider1 from './Img/Slider3.png';
-import Slider2 from './Img/Slider3.png';
-import Slider3 from './Img/Slider3.png';
+import Slider1 from './Img/Slider1.png';
+import Slider2 from './Img/Slider2.png';
+import Slider3 from './Img/Slider1.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
