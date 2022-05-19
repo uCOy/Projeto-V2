@@ -4,11 +4,19 @@
     .PB{
         font-size: 35px;
     }
+
+    .PBB{
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 640px) {
 
     .PB{
+        font-size: 25px;
+    }
+
+    .PBB{
         font-size: 25px;
     }
 }
@@ -18,11 +26,19 @@
     .PB{
         font-size: 22px;
     }
+
+    .PBB{
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 330px) {
 
     .PB{
+        font-size: 15px;
+    }
+
+    .PBB{
         font-size: 15px;
     }
 }
@@ -236,6 +252,10 @@
         font-size: 44px;
     }
 
+    .PBB{
+        font-size: 44px;
+    }
+
     .DIB{
         /* display:grid; */
         padding-bottom: 10px;
@@ -276,6 +296,10 @@
         font-size: 44px;
     }
 
+    .PBB{
+        font-size: 44px;
+    }
+
     .LC{
         width: 329px;  
         height: 140px;
@@ -302,11 +326,19 @@
     .PB{
         font-size: 43px;
     }
+
+    .PBB{
+        font-size: 43px;
+    }
 }
 
 @media (max-width:800px){ /* --------------------------------------- 800px*/
 
     .PB{
+        font-size: 42px;
+    }
+
+    .PBB{
         font-size: 42px;
     }
 
@@ -341,6 +373,10 @@
     .PB{
         font-size: 40px;
     }
+
+    .PBB{
+        font-size: 40px;
+    }
 }
 
 @media (max-width:768px){ /* --------------------------------------- 768px*/
@@ -351,6 +387,10 @@
     }
 
     .PB{
+        font-size: 40px;
+    }
+
+    .PBB{
         font-size: 40px;
     }
 
@@ -381,6 +421,9 @@
         font-size: 39px;
     }
 
+    .PBB{
+        font-size: 39px;
+    }
 }
 
 @media (max-width:741px){ /* --------------------------------------- 741px*/
@@ -389,6 +432,9 @@
         font-size: 38px;
     }
 
+    .PBB{
+        font-size: 38px;
+    }
 }
 
 @media (max-width:730px){ /* --------------------------------------- 730px*/
@@ -411,6 +457,9 @@
         font-size: 36px;
     }
 
+    .PBB{
+        font-size: 36px;
+    }
 }
 
 @media (max-width:712px){ /* --------------------------------------- 712px*/
@@ -439,6 +488,10 @@
 @media (max-width:600px){ /* --------------------------------------- 600px*/
 
     .PB{
+        font-size: 36px;
+    }
+
+    .PBB{
         font-size: 36px;
     }
 
@@ -482,6 +535,9 @@
         font-size: 34px;
     }
 
+    .PBB{
+        font-size: 34px;
+    }
 }
 
 @media (max-width:566px){ /* --------------------------------------- 566px*/
@@ -490,6 +546,9 @@
         font-size: 32px;
     }
 
+    .PBB{
+        font-size: 32px;
+    }
 }
 
 @media (max-width:540px){ /* --------------------------------------- 540px*/
@@ -509,6 +568,10 @@
     }
 
     .PB{
+        font-size: 30px;
+    }
+
+    .PBB{
         font-size: 30px;
     }
 
@@ -547,6 +610,9 @@
         font-size: 28px;
     }
 
+    .PBB{
+        font-size: 28px;
+    }
 }
 
 @media (max-width:480px){ /* --------------------------------------- 480px*/
@@ -592,6 +658,10 @@
     .PB{
         font-size: 26px;
     }
+
+    .PBB{
+        font-size: 26px;
+    }
 }
 
 @media (max-width:448px){ /* --------------------------------------- 448px*/
@@ -600,6 +670,9 @@
         font-size: 24px;
     }
 
+    .PBB{
+        font-size: 24px;
+    }
 }
 
 @media (max-width:425px){ /* --------------------------------------- 425px*/
@@ -627,6 +700,10 @@
     .PB{
         font-size: 22px;
     }
+
+    .PBB{
+        font-size: 22px;
+    }
 }
 
 @media (max-width:414px){ /* --------------------------------------- 414px*/
@@ -652,6 +729,10 @@
         font-size: 22px;
     }
 
+    .PBB{
+        font-size: 22px;
+    }
+
     .IMG{   
         width:332px;
         margin-bottom: 35px;
@@ -670,6 +751,10 @@
 @media (max-width:387px){ /* --------------------------------------- 393px*/
 
     .PB{
+        font-size: 21px;
+    }
+
+    .PBB{
         font-size: 21px;
     }
 
@@ -698,6 +783,10 @@
         font-size: 20px;
     }
 
+    .PBB{
+        font-size: 20px;
+    }
+
     .IMG{   
         width:317px;
         height: 149.2px;
@@ -715,6 +804,10 @@
 @media (max-width:360px){ /* --------------------------------------- 360px */
 
     .PB{
+        font-size: 20px;
+    }
+
+    .PBB{
         font-size: 20px;
     }
 
@@ -737,11 +830,19 @@
     .PB{
         font-size: 18px;
     }
+
+    .PBB{
+        font-size: 18px;
+    }
 }
 
 @media (max-width:328px){ /* --------------------------------------- 328px */
 
     .PB{
+        font-size: 16px;
+    }
+
+    .PBB{
         font-size: 16px;
     }
 }
@@ -767,6 +868,10 @@
     }
 
     .PB{
+        font-size: 17px; 
+    }
+
+    .PBB{
         font-size: 17px; 
     }
 

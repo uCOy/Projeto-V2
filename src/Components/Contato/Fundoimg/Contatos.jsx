@@ -6,7 +6,7 @@ const Contatos = () => {
     return ( 
         <section className="fundo-img">
             <div>
-                <h1>Venha nos conhecer</h1>
+                <h1 className="h1">Venha nos conhecer</h1>
             </div>
             <div className="paragrafo">
               <ul>
