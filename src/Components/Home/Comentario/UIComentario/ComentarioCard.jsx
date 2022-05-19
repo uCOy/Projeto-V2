@@ -1,8 +1,8 @@
 import React from 'react';
-import './Card.css';
+import './ComentarioCard.css';
 import './ResponsividadeComentario.css';
 
-function CardComment ({comments}) {
+function CardComentario ({comments}) {
 
     return(
         <div>
@@ -16,4 +16,4 @@ function CardComment ({comments}) {
     )
 }
 
-export default CardComment;
+export default CardComentario;

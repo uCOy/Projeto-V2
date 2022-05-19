@@ -1,13 +1,13 @@
 import React from 'react';
 import {useState,useEffect} from 'react';
 import api from '../../Services/api';
-import CardComment from './ComentarioApi/Card';
+import CardComentario from './UIComentario/ComentarioCard';
 import '../PaginaIndex.css';
 import '../ResponsividadeIndex.css';
 
 function Comentario() {
 
-    const [promotions, setPromotions] =  useState([]);
+    const [comment, setComment] =  useState([]);
     const[ search, setSearch] = useState('');
 
 
@@ -16,14 +16,14 @@ function Comentario() {
        if (search) {
          params.title_like = search;}
          
-         const getSeach = async () => {
+         const getSearch = async () => {
            try {
-             const promotions = await api.get('/comments') 
-             setPromotions(promotions.data);
+             const comment = await api.get('/comments') 
+             setComment(comment.data);
             } catch (error){
               console.log(error);
             }}
-            getSeach();
+            getSearch();
 
      }, [search])
 
@@ -39,8 +39,8 @@ function Comentario() {
             </section>
             <section className="SECB">           
             {/* SECB,SEB,SB = Section do Body */}
-            {promotions.map((comment) =>(
-              <CardComment comments={comment} key={comment.id}/>
+            {comment.map((comment) =>(
+              <CardComentario comments={comment} key={comment.id}/>
             ) )}  
             </section>
         </div>

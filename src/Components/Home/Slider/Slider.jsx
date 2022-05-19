@@ -1,18 +1,33 @@
+import {useState,useEffect} from 'react';
+import api from '../../Services/api';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper';
-import '../PaginaIndex.css';
-import '../ResponsividadeIndex.css';
-import Slider1 from './Img/Slider1.png';
-import Slider2 from './Img/Slider2.png';
-import Slider3 from './Img/Slider1.png';
+// import '../PaginaIndex.css';
+// import '../ResponsividadeIndex.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-// import 'swiper/swiper-bundle.css';
-
 import 'swiper/css/autoplay';
 
 const Slider = () => {
+
+  const [slider, setSlider] =  useState([]);
+
+
+     useEffect(() => {
+
+         
+         const getSearch = async () => {
+           try {
+             const slider = await api.get('/slider') 
+             setSlider(slider.data);
+            } catch (error){
+              console.log(error);
+            }}
+            getSearch();
+
+     }, [])
+
   return (
   <div className="DS">
     {/* DS = Div do Slider */} 
@@ -30,10 +45,14 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       loop={true}
     >
-      <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide>
+
+    {/* <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide>
       <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={Slider3}/></SwiperSlide>
-      {/* IS = Imagem do Slider */}
+      <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide> */}
+    {slider.map((slider) =>(
+              // <SwiperSlide/> sliders={slider} key={slider.id}/>
+              <SwiperSlide><img className="IS" src={slider.url}/></SwiperSlide>
+            ) )}  
     </Swiper>
     <p className="PB">Temos Cabeceiras e Poltronas</p>
     {/* PB = P do Body */}

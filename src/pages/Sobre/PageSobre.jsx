@@ -1,6 +1,6 @@
 import React from 'react';
 import Sobre from '../../Components/Sobre/Sobre';
-const PageSobre = () => {
+const PagesSobre = () => {
     return (
         <>
         <Sobre/>
@@ -8,4 +8,4 @@ const PageSobre = () => {
      );
 }
  
-export default PageSobre;
+export default PagesSobre;

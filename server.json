@@ -14,6 +14,28 @@
         "id": 3,
         "name": "Algusto Rodriguez de Paiva",
         "comentario": "Melhor site de todos!!"
+    },
+    {
+        "id": 4,
+        "name": "Algusto Rodriguez de Paiva",
+        "comentario": "Melhor site de todos!!"
     }
-    ]
+    ],
+    "slider": [
+        {
+            "id": 1,
+            "title": "imagem1",
+            "url": "https://i.pinimg.com/564x/f0/cc/21/f0cc2190f4bc66269fa6fd18d01cd855.jpg"
+        },
+        {
+            "id": 2,
+            "title": "imagem2",
+            "url": "https://i.pinimg.com/564x/ad/34/20/ad3420da9453d25a0de4a535fdb4b1f7.jpg"
+        },
+        {
+            "id": 3,
+            "title": "imagem3",
+            "url": "https://i.pinimg.com/564x/f0/cc/21/f0cc2190f4bc66269fa6fd18d01cd855.jpg"
+        }
+        ]
 }

@@ -7,7 +7,8 @@ import { BrowserRouter as Router,
 
 import PagesContatos from "../pages/Contatos/contatos";
 import PagesIndex from '../pages/Home/Index';
-import PageSobre from '../pages/Sobre/PageSobre';
+import PagesSobre from '../pages/Sobre/PageSobre';
+import PagesSofas from '../pages/Sofas/PageSofas';
 
 const Root = () => {
   return (
@@ -15,7 +16,8 @@ const Root = () => {
       <Routes>
         <Route path="/" element={<PagesIndex/>} />
         <Route path="/Contato" element={<PagesContatos/>} />
-        <Route path="/Sobre" element={<PageSobre/>} />
+        <Route path="/Sobre" element={<PagesSobre/>} />
+        <Route path="/Sofa" element={<PagesSofas/>} />
       </Routes>
     </Router>
   );
