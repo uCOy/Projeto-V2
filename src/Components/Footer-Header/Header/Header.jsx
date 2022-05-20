@@ -6,19 +6,16 @@ function Header(){
     return(
         <div>
             <header>
-                <nav className="NH">
-                    {/* NH = Nav do Header */}
+                <nav className="nav-header">
                     <div>
-                        <a href="/"><img src={Logo} className="Logo" alt="Logo"/></a>
+                        <a href="/"><img src={Logo} className="logo-header" alt="Logo"/></a>
                     </div>
-                    <button>&#9776;</button>
-                    <ul className="UH">
-                        {/* UH = UL do Header */}
-                        <li className="LH"><p className="PH"><a href="/Sobre" className="LIH">Sobre Nós</a></p></li> 
-                        <li className="LH"><p className="PH"><a href="/Sofa" className="LIH">Sofás</a></p></li>
-                        <li className="LH"><p className="PH"><a href="" className="LIH">Produtos</a></p></li>
-                        <li className="LH"><p className="PH"><a href="/Contato" className="LIH">Contato</a></p></li>   
-                        {/* LH,LIH = Li do Header */}
+                    <button className="button-menu-header">&#9776;</button>
+                    <ul className="ul-menu-header">
+                        <li className="li-menu"><p className="p-space-menu"><a href="/Sobre" className="li-text-menu">Sobre Nós</a></p></li> 
+                        <li className="li-menu"><p className="p-space-menu"><a href="/Sofa" className="li-text-menu">Sofás</a></p></li>
+                        <li className="li-menu"><p className="p-space-menu"><a href="" className="li-text-menu">Produtos</a></p></li>
+                        <li className="li-menu"><p className="p-space-menu"><a href="/Contato" className="li-text-menu">Contato</a></p></li>   
                     </ul>
                 </nav>
             </header>

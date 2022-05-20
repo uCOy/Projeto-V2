@@ -1,8 +1,7 @@
-import React from 'react';
-import {useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import api from '../../Services/api';
 import CardComentario from './UIComentario/ComentarioCard';
-import '../PaginaIndex.css';
+import './Comentario.css';
 import '../ResponsividadeIndex.css';
 
 function Comentario() {
@@ -29,16 +28,12 @@ function Comentario() {
 
     return(
         <div>
-            <section className="SEB">
-            {/* SEB,SB,SECB = Section do Body */}
-            <ul className="UB">
-                {/* UB,ULB = UL do Body */}
-                <p className="PBB">Comentários dos Clientes</p>
-                {/* LB,LIB = P do Body */}
+            <section className="comment-section">
+            <ul className="ul-comment">
+                <p className="p-title-comment">Comentários dos Clientes</p>
             </ul>              
             </section>
-            <section className="SECB">           
-            {/* SECB,SEB,SB = Section do Body */}
+            <section className="comments-local">           
             {comment.map((comment) =>(
               <CardComentario comments={comment} key={comment.id}/>
             ) )}  

@@ -1,0 +1,1285 @@
+/* --------------------------------------------------------------------------- Responsividade */
+
+@media (max-width:2560px){ /* --------------------------------------- 2560px*/
+
+    .user-comment{
+        width: 377px;  
+    }
+
+    .user-name{
+        width: 377px;  
+    }
+}
+
+@media (max-width:1920px){ /* --------------------------------------- 1920px*/
+
+    .user-comment{
+        width: 268px;  
+    }
+
+    .user-name{
+        width: 268px;  
+    }
+}
+
+@media (max-width:1900px){ /* --------------------------------------- 1900px*/
+
+    .user-comment{
+        width: 265px;  
+    }
+
+    .user-name{
+        width: 265px;  
+    }
+}
+
+@media (max-width:1879px){ /* --------------------------------------- 1879px*/
+
+    .user-comment{
+        width: 261px;  
+    }
+
+    .user-name{
+        width: 261px;  
+    }
+}
+
+
+@media (max-width:1860px){ /* --------------------------------------- 1860px*/
+
+    .user-comment{
+        width: 260px;  
+    }
+
+    .user-name{
+        width: 260px;  
+    }
+}
+
+@media (max-width:1600px){ /* --------------------------------------- 1600px*/
+
+    .user-comment{
+        width: 215px;  
+    }
+
+    .user-name{
+        width: 215px;  
+    }
+}
+
+@media (max-width:1559px){ /* --------------------------------------- 1559px*/
+
+    .user-comment{
+        width: 208px;  
+    }
+
+    .user-name{
+        width: 208px;  
+    }
+}
+
+@media (max-width:1440px){ /* --------------------------------------- 1440px*/
+
+    .user-comment{
+        width: 191px;  
+    }
+
+    .user-name{
+        width: 191px;  
+    }
+}
+
+@media (max-width:1390px){ /* --------------------------------------- 1390px*/
+
+    .user-comment{
+        width: 182px;  
+    }
+
+    .user-name{
+        width: 182px;  
+    }
+}
+
+@media (max-width:1389px){ /* --------------------------------------- 1389px*/
+
+    .user-comment{
+        width: 171px;  
+    }
+
+    .user-name{
+        width: 171px;  
+    }
+}
+
+@media (max-width:1100px){ /* --------------------------------------- 1389px*/
+
+    .user-comment{
+        width: 141px;  
+    }
+
+    .user-name{
+        width: 141px;  
+    }
+}
+
+@media (max-width:1024px){ /* --------------------------------------- 1024px*/
+
+    .user-comment{
+        width: 121px;  
+    }
+
+    .user-name{
+        width: 121px;  
+    }
+}
+
+@media (max-width:975px){ /* --------------------------------------- 975px*/
+
+    .user-comment{
+        width: 113px;  
+    }
+
+    .user-name{
+        width: 113px;  
+    }
+}
+
+@media (max-width:912px){ /* --------------------------------------- 912px*/
+
+    .user-comment{
+        width: 373px;  
+    }
+
+    .user-name{
+        width: 373px;  
+    }
+    
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:820px){ /* --------------------------------------- 820px*/
+
+    .user-comment{
+        width: 329px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 329px;
+        height: 140px;  
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:800px){ /* --------------------------------------- 800px*/
+
+    .user-comment{
+        width: 321px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 321px;
+        height: 140px;  
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:768px){ /* --------------------------------------- 768px*/
+
+    .user-comment{
+        width: 300px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 300px;
+        height: 140px;  
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:730px){ /* --------------------------------------- 730px*/
+
+    .user-comment{
+        width: 285px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 285px;
+        height: 140px;  
+    }
+}
+
+@media (max-width:712px){ /* --------------------------------------- 712px*/
+
+    .user-comment{
+        width: 325px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 325px;
+        height: 140px;  
+    }
+}
+
+@media (max-width:600px){ /* --------------------------------------- 600px*/
+    
+    .user-comment{
+        width: 268px;  
+        height: 180px;
+    }
+    
+    .user-name{
+        width: 268px;
+        height: 180px;  
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:540px){ /* --------------------------------------- 540px*/
+
+    .user-comment{
+        width: 240px;  
+    }
+
+    .user-name{
+        width: 240px;
+    }
+}
+
+@media (max-width:480px){ /* --------------------------------------- 480px*/
+
+    .user-comment{
+        width: 210px;  
+    }
+
+    .user-name{
+        width: 210px;
+    }
+}
+
+@media (max-width:425px){ /* --------------------------------------- 425px*/
+
+    .user-comment{
+        width: 183px;  
+    }
+
+    .user-name{
+        width: 183px;
+    }
+}
+
+@media (max-width:414px){ /* --------------------------------------- 414px*/
+
+    .user-comment{
+        width: 176px;  
+    }
+
+    .user-name{
+        width: 176px;
+    }
+}
+
+@media (max-width:393px){ /* --------------------------------------- 393px*/
+
+    .user-comment{
+        width: 165px;  
+    }
+
+    .user-name{
+        width: 165px;
+    }
+}
+
+@media (max-width:387px){ /* --------------------------------------- 393px*/
+
+    .user-comment{
+        width: 165px;  
+    }
+
+    .user-name{
+        width: 165px;
+    }
+}
+
+@media (max-width:375px){ /* --------------------------------------- 375px */
+
+    .user-comment{
+        width: 158px;  
+    }
+
+    .user-name{
+        width: 158px; 
+    }
+}
+
+@media (max-width:360px){ /* --------------------------------------- 360px */
+
+    .user-comment{
+        width: 149px;  
+    }
+
+    .user-name{
+        width: 149px; 
+    }
+}
+
+@media (max-width:320px){ /* --------------------------------------- 320px */
+
+    .user-comment{
+        width: 130px;  
+    }
+
+    .user-name{
+        width: 130px;
+    }
+}
+
+@media (max-width:280px){ /* --------------------------------------- 280px */
+
+    .user-comment{
+        width: 130px;  
+    }
+
+    .user-name{
+        width: 130px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+
+    .PB{
+        font-size: 35px;
+    }
+
+    .p-title-comment{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .PB{
+        font-size: 25px;
+    }
+
+    .p-title-comment{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .PB{
+        font-size: 22px;
+    }
+
+    .p-title-comment{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .PB{
+        font-size: 15px;
+    }
+
+    .p-title-comment{
+        font-size: 15px;
+    }
+}
+
+/* --------------------------------------------------------------------------- Responsividade */
+
+@media (max-width:2560px){ /* --------------------------------------- 2560px*/
+
+    .IMG{   
+        width:1179px;
+    }
+
+    .user-comment{
+        width: 377px;  
+    }
+
+    .user-name{
+        width: 377px;  
+    }
+
+    .IS{
+        max-height: 800px;
+    }
+}
+
+@media (max-width:1920px){ /* --------------------------------------- 1920px*/
+
+    .IMG{   
+        width:851px;
+    }
+
+    .user-comment{
+        width: 268px;  
+    }
+
+    .user-name{
+        width: 268px;  
+    }
+
+    .IS{
+        max-height: 700px;
+    }
+}
+
+@media (max-width:1900px){ /* --------------------------------------- 1900px*/
+
+    .IMG{   
+        width:847px;
+    }
+
+    .user-comment{
+        width: 265px;  
+    }
+
+    .user-name{
+        width: 265px;  
+    }
+
+    .IS{
+        max-height: 600px;
+    }
+}
+
+@media (max-width:1879px){ /* --------------------------------------- 1879px*/
+
+    .IMG{   
+        width:831px;
+    }
+
+    .user-comment{
+        width: 261px;  
+    }
+
+    .user-name{
+        width: 261px;  
+    }
+
+    .IS{
+        max-height: 600px;
+    }
+}
+
+
+@media (max-width:1860px){ /* --------------------------------------- 1860px*/
+
+    .IMG{   
+        width:828px;
+    }
+
+    .user-comment{
+        width: 260px;  
+    }
+
+    .user-name{
+        width: 260px;  
+    }
+
+    .IS{
+        max-height: 600px;
+    }
+}
+
+@media (max-width:1600px){ /* --------------------------------------- 1600px*/
+
+    .IMG{   
+        width:693px;
+    }
+
+    .user-comment{
+        width: 215px;  
+    }
+
+    .user-name{
+        width: 215px;  
+    }
+}
+
+@media (max-width:1559px){ /* --------------------------------------- 1559px*/
+
+    .IMG{   
+        width:672px;
+    }
+
+    .user-comment{
+        width: 208px;  
+    }
+
+    .user-name{
+        width: 208px;  
+    }
+}
+
+@media (max-width:1440px){ /* --------------------------------------- 1440px*/
+    
+    .IMG{   
+        width:620px;
+    }
+
+    .user-comment{
+        width: 191px;  
+    }
+
+    .user-name{
+        width: 191px;  
+    }
+}
+
+@media (max-width:1390px){ /* --------------------------------------- 1390px*/
+
+    .IMG{   
+        width:596px;
+    }
+
+    .user-comment{
+        width: 182px;  
+    }
+
+    .user-name{
+        width: 182px;  
+    }
+}
+
+@media (max-width:1389px){ /* --------------------------------------- 1389px*/
+
+    .IMG{   
+        width:413px;
+    }
+
+    .user-comment{
+        width: 121px;  
+    }
+
+    .user-name{
+        width: 121px;  
+    }
+}
+
+@media (max-width:1024px){ /* --------------------------------------- 1024px*/
+
+    .IMG{   
+        width:413px;
+    }
+
+    .user-comment{
+        width: 121px;  
+    }
+
+    .user-name{
+        width: 121px;  
+    }
+}
+
+@media (max-width:975px){ /* --------------------------------------- 975px*/
+
+    .IMG{   
+        width:389px;
+    }
+
+    .user-comment{
+        width: 113px;  
+    }
+
+    .user-name{
+        width: 113px;  
+    }
+}
+
+@media (max-width:912px){ /* --------------------------------------- 912px*/
+
+    .PB{
+        font-size: 44px;
+    }
+
+    .p-title-comment{
+        font-size: 44px;
+    }
+
+    .DIB{
+        /* display:grid; */
+        padding-bottom: 10px;
+    }
+
+    .IMG{   
+        width:356px;
+        margin-bottom: 20px;
+    }
+
+    .user-comment{
+        width: 373px;  
+    }
+
+    .user-name{
+        width: 373px;  
+    }
+    
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .comments-local{
+        display: grid;
+        height: 630px;
+    }
+}
+
+@media (max-width:820px){ /* --------------------------------------- 820px*/
+
+    .IMG{   
+        width:310px;
+        height: 250px;
+    }
+
+    .PB{
+        font-size: 44px;
+    }
+
+    .p-title-comment{
+        font-size: 44px;
+    }
+
+    .user-comment{
+        width: 329px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 329px;
+        height: 140px;  
+    }
+
+    .comments-local{
+        display: grid;
+        height: 480px;
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:815px){ /* --------------------------------------- 815px*/
+
+    .PB{
+        font-size: 43px;
+    }
+
+    .p-title-comment{
+        font-size: 43px;
+    }
+}
+
+@media (max-width:800px){ /* --------------------------------------- 800px*/
+
+    .PB{
+        font-size: 42px;
+    }
+
+    .p-title-comment{
+        font-size: 42px;
+    }
+
+    .IMG{   
+        width:299px;
+        height: 250px;
+    }
+
+    .user-comment{
+        width: 321px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 321px;
+        height: 140px;  
+    }
+
+    .comments-local{
+        display: grid;
+        height: 480px;
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:785px){ /* --------------------------------------- 785px*/
+
+    .PB{
+        font-size: 40px;
+    }
+
+    .p-title-comment{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:768px){ /* --------------------------------------- 768px*/
+
+    .IMG{   
+        width:284px;
+        height: 200px;
+    }
+
+    .PB{
+        font-size: 40px;
+    }
+
+    .p-title-comment{
+        font-size: 40px;
+    }
+
+    .user-comment{
+        width: 300px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 300px;
+        height: 140px;  
+    }
+
+    .comments-local{
+        display: grid;
+        height: 480px;
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:756px){ /* --------------------------------------- 756px*/
+
+    .PB{
+        font-size: 39px;
+    }
+
+    .p-title-comment{
+        font-size: 39px;
+    }
+}
+
+@media (max-width:741px){ /* --------------------------------------- 741px*/
+
+    .PB{
+        font-size: 38px;
+    }
+
+    .p-title-comment{
+        font-size: 38px;
+    }
+}
+
+@media (max-width:730px){ /* --------------------------------------- 730px*/
+
+    .IMG{   
+        width:265px;
+    }
+
+    .user-comment{
+        width: 285px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 285px;
+        height: 140px;  
+    }
+
+    .PB{
+        font-size: 36px;
+    }
+
+    .p-title-comment{
+        font-size: 36px;
+    }
+}
+
+@media (max-width:712px){ /* --------------------------------------- 712px*/
+
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .IMG{   
+        width:306.5px;
+    }
+
+    .user-comment{
+        width: 325px;  
+        height: 140px;
+    }
+
+    .user-name{
+        width: 325px;
+        height: 140px;  
+    }
+
+}
+
+@media (max-width:600px){ /* --------------------------------------- 600px*/
+
+    .PB{
+        font-size: 36px;
+    }
+
+    .p-title-comment{
+        font-size: 36px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+
+    .IMG{   
+        width:190px;
+        height: 200px;
+    }
+    
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .user-comment{
+        width: 268px;  
+        height: 180px;
+    }
+    
+    .user-name{
+        width: 268px;
+        height: 180px;  
+    }
+
+    .comments-box{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .comments-local{
+        height: 600px;
+    }
+}
+
+@media (max-width:596px){ /* --------------------------------------- 596px*/
+
+    .PB{
+        font-size: 34px;
+    }
+
+    .p-title-comment{
+        font-size: 34px;
+    }
+}
+
+@media (max-width:566px){ /* --------------------------------------- 566px*/
+
+    .PB{
+        font-size: 32px;
+    }
+
+    .p-title-comment{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:540px){ /* --------------------------------------- 540px*/
+
+    .DIB{
+        display:grid;
+        padding-bottom: 0px;
+    }
+
+    .LMG{
+        margin-right: 10px;
+    }
+
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .PB{
+        font-size: 30px;
+    }
+
+    .p-title-comment{
+        font-size: 30px;
+    }
+
+    .IMG{   
+        width: 482px;
+        margin-bottom: 20px;
+        height: 227px;
+    }
+
+    .LB{
+        font-size: 20px;
+        height:90px;
+        width: 375px;
+    }
+
+    .user-comment{
+        width: 240px;  
+    }
+
+    .user-name{
+        width: 240px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+    
+    .LIMG{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:508px){ /* --------------------------------------- 508px*/
+
+    .PB{
+        font-size: 28px;
+    }
+
+    .p-title-comment{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:480px){ /* --------------------------------------- 480px*/
+
+    .DS{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .DIB{
+        display:grid;
+        padding-bottom: 0px;
+    }
+
+    .IMG{   
+        width:422px;
+        margin-bottom: 35px;
+        height: 198.94px;
+    }
+
+    .LMG{
+        margin-right: 0px;
+    }
+    
+    .LIMG{
+        margin-left: 0px;
+    }
+
+    .LB{
+        font-size: 20px;
+        height:90px;
+        width: 375px;
+    }
+
+    .user-comment{
+        width: 210px;  
+    }
+
+    .user-name{
+        width: 210px;
+    }
+
+    .PB{
+        font-size: 26px;
+    }
+
+    .p-title-comment{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:448px){ /* --------------------------------------- 448px*/
+
+    .PB{
+        font-size: 24px;
+    }
+
+    .p-title-comment{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:425px){ /* --------------------------------------- 425px*/
+
+    .IMG{   
+        width:365px;
+        margin-bottom: 35px;
+        height: 172.89px;
+    }
+
+    .LB{
+        font-size: 20px;
+        height:90px;
+        width: 375px;
+    }
+
+    .user-comment{
+        width: 183px;  
+    }
+
+    .user-name{
+        width: 183px;
+    }
+
+    .PB{
+        font-size: 22px;
+    }
+
+    .p-title-comment{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:414px){ /* --------------------------------------- 414px*/
+
+    .IMG{   
+        width:355px;
+        margin-bottom: 35px;
+        height: 167.67px;
+    }
+
+    .user-comment{
+        width: 176px;  
+    }
+
+    .user-name{
+        width: 176px;
+    }
+}
+
+@media (max-width:393px){ /* --------------------------------------- 393px*/
+
+    .PB{
+        font-size: 22px;
+    }
+
+    .p-title-comment{
+        font-size: 22px;
+    }
+
+    .IMG{   
+        width:332px;
+        margin-bottom: 35px;
+        height: 156.31px;
+    }
+
+    .user-comment{
+        width: 165px;  
+    }
+
+    .user-name{
+        width: 165px;
+    }
+}
+
+@media (max-width:387px){ /* --------------------------------------- 393px*/
+
+    .PB{
+        font-size: 21px;
+    }
+
+    .p-title-comment{
+        font-size: 21px;
+    }
+
+    .IMG{   
+        width:325px;
+        margin-bottom: 35px;
+        height: 156.31px;
+    }
+
+    .user-comment{
+        width: 165px;  
+    }
+
+    .user-name{
+        width: 165px;
+    }
+
+    .comments-local{
+        height: 600px;
+    }
+}
+
+@media (max-width:375px){ /* --------------------------------------- 375px */
+
+    .PB{
+        font-size: 20px;
+    }
+
+    .p-title-comment{
+        font-size: 20px;
+    }
+
+    .IMG{   
+        width:317px;
+        height: 149.2px;
+    }
+
+    .user-comment{
+        width: 158px;  
+    }
+
+    .user-name{
+        width: 158px; 
+    }
+}
+
+@media (max-width:360px){ /* --------------------------------------- 360px */
+
+    .PB{
+        font-size: 20px;
+    }
+
+    .p-title-comment{
+        font-size: 20px;
+    }
+
+    .IMG{   
+        width:301px;
+        height: 142.09px;
+    }
+
+    .user-comment{
+        width: 149px;  
+    }
+
+    .user-name{
+        width: 149px; 
+    }
+}
+
+@media (max-width:359px){ /* --------------------------------------- 359px */
+
+    .PB{
+        font-size: 18px;
+    }
+
+    .p-title-comment{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:328px){ /* --------------------------------------- 328px */
+
+    .PB{
+        font-size: 16px;
+    }
+
+    .p-title-comment{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:320px){ /* --------------------------------------- 320px */
+
+    .IS{
+        width:100%;
+        /* height: 200px; */
+    }
+
+    .IMG{   
+        width:260px;
+        height: 123.16px;
+    }
+
+    .user-comment{
+        width: 130px;  
+    }
+
+    .user-name{
+        width: 130px;
+    }
+
+    .PB{
+        font-size: 17px; 
+    }
+
+    .p-title-comment{
+        font-size: 17px; 
+    }
+
+    .LB{
+        width: 220px;
+    }
+}
+
+@media (max-width:319px){ /* ----------------------------------------- 319px */
+
+    .DS{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .comments-local{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:280px){ /* --------------------------------------- 280px */
+
+    .IMG{   
+        width:260px;
+    }
+
+    .user-comment{
+        width: 130px;  
+    }
+
+    .user-name{
+        width: 130px;
+    }
+
+    .comments-local{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,41 @@
+.comment-section{
+    border-top: 0.0625rem solid #e8e8e8;
+    background-color: #ffffff;
+    list-style: none;
+    height: 135px;
+    justify-content: center;
+    display: flex;
+}
+
+.ul-comment{
+    display: flex;
+    height:60px;
+    padding-inline-start: 0px;
+}
+
+.p-title-comment{
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    display: flex;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Raleway';
+    color: rgba(82, 76, 76, 0.836);
+    /* text-shadow: 3px 3px #181818; */
+    /* background-color: rgb(242,242,242); */
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: 135px;
+    font-weight: 500;
+}
+
+.comments-local{
+    justify-content: center;
+    background-color: #ffffff;
+    display: flex;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 35px;
+}

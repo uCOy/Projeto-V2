@@ -1,5 +1,4 @@
-/* ULB = UL do Body*/
-.ULB{
+.comments-box{
     justify-content: center;
     display: flex;
     /* width: 100%; */
@@ -15,24 +14,7 @@
     margin-right: 33px;
 }
 
-/* LC = LI Comentario */
-.LC{
-    border-left: 2px solid #18181817;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    height:180px;
-    width: 200px;  
-    text-align: center;
-    font-size: 16px;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: rgba(82, 76, 76, 0.836);
-}
-
-/* LIB = LI do Body */
-.LIB{
+.user-name{
     justify-content: center;
     display: flex;
     align-items: center;
@@ -47,3 +29,17 @@
     color: rgba(82, 76, 76, 0.836);
 }
 
+.user-comment{
+    border-left: 2px solid #18181817;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height:180px;
+    width: 200px;  
+    text-align: center;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgba(82, 76, 76, 0.836);
+}

@@ -1,15 +1,15 @@
 import React from 'react';
 import './ComentarioCard.css';
-import './ResponsividadeComentario.css';
+import '../ResponsividadeComentario.css';
 
 function CardComentario ({comments}) {
 
     return(
         <div>
-            <ul className="ULB">
+            <ul className="comments-box">
                 {/* ULB,UB = UL do Body */}
-                <li className="LIB">{comments.name}</li> {/* LB,LIB = LI do Body */}
-                <li className="LC">{comments.comentario}</li>
+                <li className="user-name">{comments.name}</li> {/* LB,LIB = LI do Body */}
+                <li className="user-comment">{comments.comentario}</li>
                 {/* LC = LI Comentário  */}
             </ul> 
         </div>

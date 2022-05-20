@@ -7,18 +7,18 @@ import LogoWhasapp from '.././img/logo-whatsapp.png';
 function Footer(){
     return(
         <div>
-            <footer>
-                <nav className="NF">
+            <footer className="footer-site">
+                <nav className="nav-footer">
                     {/* NF = Nav do Footer */}
                     <div>
                         {/* UF = UL do Footer */}
-                        <li className="LF">Estofados Oliveira ©copy 2022. Todos direitos reservados.</li>  
+                        <li className="li-copyright">Estofados Oliveira ©copy 2022. Todos direitos reservados.</li>  
                     </div>
-                    <ul class="UF">
-                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoFacebook} alt="Facebook"/></a></li>            
-                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoInstagram} alt="Instagram"/></a></li>  
-                        <li className="LF"><a className="LIF" href=""><img className="IF" src={LogoWhasapp} alt="Whatsapp"/></a></li>
-                        {/* LF,LIF = LI do Footer ------- IF = Imagem do Footer */}
+                    <ul className="ul-social">
+                        <li className="li-rede-social"><a className="a-link-social" href=""><img className="image-social" src={LogoFacebook} alt="Facebook"/></a></li>            
+                        <li className="li-rede-social"><a className="a-link-social" href=""><img className="image-social" src={LogoInstagram} alt="Instagram"/></a></li>  
+                        <li className="li-rede-social"><a className="a-link-social" href=""><img className="image-social" src={LogoWhasapp} alt="Whatsapp"/></a></li>
+                        {/* LF,a-linkando = LI do Footer ------- IF = Imagem do Footer */}
                     </ul>          
                 </nav>
             </footer>

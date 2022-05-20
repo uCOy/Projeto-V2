@@ -13,10 +13,7 @@ const Slider = () => {
 
   const [slider, setSlider] =  useState([]);
 
-
-     useEffect(() => {
-
-         
+     useEffect(() => {   
          const getSearch = async () => {
            try {
              const slider = await api.get('/slider') 
@@ -45,14 +42,9 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       loop={true}
     >
-
-    {/* <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={Slider2}/></SwiperSlide>
-      <SwiperSlide><img className="IS" src={Slider1}/></SwiperSlide> */}
     {slider.map((slider) =>(
-              // <SwiperSlide/> sliders={slider} key={slider.id}/>
               <SwiperSlide><img className="IS" src={slider.url}/></SwiperSlide>
-            ) )}  
+    ) )}  
     </Swiper>
     <p className="PB">Temos Cabeceiras e Poltronas</p>
     {/* PB = P do Body */}

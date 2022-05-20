@@ -1,42 +1,4 @@
-/*---------------------------------------------------------- Logo */
-
-.Logo{
-    width: 115px;
-}
-
-/* --------------------------------------------------------- Body do Menu */
-
-
-/* LH,LIH = LI do header */
-.LIH{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-decoration: none;
-    width: 100px;
-    text-transform:capitalize;
-}
-
-/* UH = UL do Header */
-.UH {
-    list-style: none;
-    padding: 0;
-    overflow: hidden;
-    transition: all .5s;
-    margin:0px;
-}
-
-.PH{
-    padding-top:10px;
-    height: 54px;
-    margin: 0px;
-}
-
-.LIH:hover{
-    color: rgb(0, 0, 0);
-}
-
-/* NH = Nav do Header */
-.NH {
+.nav-header {
     background-color: #ffffff;
     padding: 0 20px;
     justify-content: space-between;
@@ -46,21 +8,60 @@
     border-bottom: 0.0625rem solid #e8e8e8;
 }
 
-.NH,
-.UH {
+.nav-header,
+.ul-menu-header {
     display: flex;
     flex-direction: row;
 }
 
-/* LH,LIH = Li do Header */
-.LH {
+/*---------------------------------------------------------- logo-header */
+
+.logo-header{
+    width: 115px;
+}
+
+/* --------------------------------------------------------- Body do Menu */
+
+
+.ul-menu-header {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+    margin:0px;
+}
+
+.li-menu {
     padding: 0 20px;
     font-family: "Raleway";
 }
 
+.p-space-menu{
+    padding-top:10px;
+    height: 54px;
+    margin: 0px;
+}
+
+.li-text-menu{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    width: 100px;
+    text-transform:capitalize;
+}
+
+
+
+.li-text-menu:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+/* LH,LIH = Li do Header */
+
 /* -------------------------------------------------------------------- Botão */
 
-button {
+.button-menu-header {
     background-color: transparent;
     border: none;
     color: rgb(0, 0, 0);
@@ -71,19 +72,18 @@ button {
     display: none;
 }
 
-/* LH,LIH = Li do Header */
-/* .LH:hover,
-button:hover {
+/* .li-menu:hover,
+.button-menu-header:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(27, 31, 34, 0.068);
 } */
 
-.LIH:hover{
+.li-text-menu:hover{
     color: rgba(82, 76, 76, 0.836);
 }
 
-button:focus~.UH {
+.button-menu-header:focus~.ul-menu-header {
     height: 320px;
 }
 
@@ -91,37 +91,37 @@ button:focus~.UH {
 
 @media (max-width: 714px) {
 
-    .NH,
-    .UH {
+    .nav-header,
+    .ul-menu-header {
         flex-direction: column;
     }
 
-    .UH {
+    .ul-menu-header {
         text-align: center;
         align-items:center;
         margin: 0;
         height: 0;
     }
 
-    .NH {
+    .nav-header {
         padding: 0;
         padding-left: 30px;
         padding-right: 30px;
         align-items: flex-start;
     }
 
-    button {
+    .button-menu-header {
         display: flex;
         margin-right:15px;
     }
 
-    .LH,
-    .UH {
+    .li-menu,
+    .ul-menu-header {
         width: 100%;
     }
 
-    .LH:hover,
-    button:hover {
+    .li-menu:hover,
+    .button-menu-header:hover {
     cursor: pointer;
     opacity: 0.8;
     background-color: rgba(202, 202, 202, 0.24);
@@ -130,35 +130,35 @@ button:focus~.UH {
 
 @media (max-width: 760px) {
 
-    .LH{
+    .li-menu{
         padding: 18px;
     }
 }
 
 @media (max-width: 750px) {
 
-    .LH{
+    .li-menu{
         padding: 16px;
     }
 }
 
 @media (max-width: 740px) {
 
-    .LH{
+    .li-menu{
         padding: 14px;
     }
 }
 
 @media (max-width: 730px) {
 
-    .LH{
+    .li-menu{
         padding: 12px;
     }
 }
 
 @media (max-width:280px) {
 
-    .NH {
+    .nav-header {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -166,7 +166,7 @@ button:focus~.UH {
 
 @media (max-width: 280px) {
 
-    button {
+    .button-menu-header {
         margin-right:0px;
     }
 }
