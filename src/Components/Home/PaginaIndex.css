@@ -71,32 +71,6 @@
     font-weight: 500;
 }
 
-/* --------------------------------------------------------- Div do Body */
-
-/* DIB,DB = Div do Body */
-.DIB{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    background-color: rgb(242,242,242);
-}
-
-.IMG{   
-    width:590px;
-    /* height: 500px; */
-    /* border: 0.5px solid rgba(0, 0, 0, 0.37); */
-    min-width: 260px; 
-}
-
-.LMG{
-    margin-right: 20px;
-}
-
-.LIMG{
-    margin-left: 20px;
-}
-
 /* ----------------------------------------------------------- Section do Body */
 
 /* SEB = Section do Body */

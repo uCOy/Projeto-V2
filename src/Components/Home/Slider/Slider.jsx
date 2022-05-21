@@ -1,8 +1,8 @@
 import {useState,useEffect} from 'react';
 import api from '../../Services/api';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay} from 'swiper';
-// import '../PaginaIndex.css';
-// import '../ResponsividadeIndex.css';
+import '../PaginaIndex.css';
+import '../ResponsividadeIndex.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';

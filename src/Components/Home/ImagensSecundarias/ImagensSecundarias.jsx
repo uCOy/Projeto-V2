@@ -1,19 +1,17 @@
 import React from 'react';
-import '../PaginaIndex.css';
-import '../ResponsividadeIndex.css';
+import './ImgSec.css';
+import './ResponsividadeImgSec.css';
 import ImgA from './Img/ImgA.png';
 import ImgB from './Img/ImgB.png';
 
 function ImagensSecundarias() {
     return(
         <div>
-            <div className="DIB">
-                {/* DB,DIB = Div do Body */}
-                <li className="LMG"><img className="IMG" src={ImgA} alt=""/></li>
-                <li className="LIMG"><img className="IMG" src={ImgB} alt=""/></li>
-                {/* LIMG,LMG = LI Img */}
+            <div className="images-sec-local">
+                <li className="image-distance"><img className="image-sec" src={ImgA} alt=""/></li>
+                <li id="image-distance"><img className="image-sec" src={ImgB} alt=""/></li>
             </div>
-        </div>
+        </div>       
     )
 }
 

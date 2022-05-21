@@ -5,10 +5,11 @@ import { BrowserRouter as Router,
     Route,
   } from "react-router-dom";
 
-import PagesContatos from "../pages/Contatos/contatos";
-import PagesIndex from '../pages/Home/Index';
+import PagesContatos from "../pages/Contatos/PageContato";
+import PagesIndex from '../pages/Home/PageHome';
 import PagesSobre from '../pages/Sobre/PageSobre';
 import PagesSofas from '../pages/Sofas/PageSofas';
+import PagesProdutos from '../pages/Produtos/PageProdutos';
 
 const Root = () => {
   return (
@@ -18,6 +19,7 @@ const Root = () => {
         <Route path="/Contato" element={<PagesContatos/>} />
         <Route path="/Sobre" element={<PagesSobre/>} />
         <Route path="/Sofa" element={<PagesSofas/>} />
+        <Route path="/Produtos" element={<PagesProdutos/>} />
       </Routes>
     </Router>
   );

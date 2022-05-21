@@ -1,0 +1,22 @@
+.images-sec-local{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: rgb(242,242,242);
+}
+
+.image-sec{   
+    width:590px;
+    /* height: 500px; */
+    /* border: 0.5px solid rgba(0, 0, 0, 0.37); */
+    min-width: 260px; 
+}
+
+.image-distance{
+    margin-right: 20px;
+}
+
+#image-distance{
+    margin-left: 20px;
+}

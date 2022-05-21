@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import api from '../../Services/api';
 import CardComentario from './UIComentario/ComentarioCard';
 import './Comentario.css';
-import '../ResponsividadeIndex.css';
+import './ResponsiveComment.css';
 
 function Comentario() {
 

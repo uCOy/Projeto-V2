@@ -104,6 +104,10 @@
     .li-copyright{
         font-size: 12px;
     }
+
+    .image-social{
+        width: 40px;
+    }
 }
 
 @media (max-width:280px) {
