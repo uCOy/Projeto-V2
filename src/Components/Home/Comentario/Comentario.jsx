@@ -27,7 +27,7 @@ function Comentario() {
      }, [search])
 
     return(
-        <div>
+        <>
             <section className="comment-section">
             <ul className="ul-comment">
                 <p className="p-title-comment">Comentários dos Clientes</p>
@@ -38,7 +38,7 @@ function Comentario() {
               <CardComentario comments={comment} key={comment.id}/>
             ) )}  
             </section>
-        </div>
+        </>
     )
 }
 
