@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Slider from '../../Components/Home/Slider/Slider';
-import Comentario from '../../Components/Home/Comentario/Comentario';
 import ImagensSecundarias from '../../Components/Home/ImagensSecundarias/ImagensSecundarias';
-import Slider2 from '../../Components/Home/Comentario/teste';
+import Comentario from '../../Components/Home/Comentario/Comentario';
 
 const PagesIndex = () =>{
   
@@ -10,7 +9,7 @@ const PagesIndex = () =>{
     <div>
         <Slider/>
         <ImagensSecundarias/>
-        <Slider2/>
+        <Comentario/>
     </div>
   )
 }

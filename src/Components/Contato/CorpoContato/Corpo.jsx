@@ -8,7 +8,7 @@ const CorpoContato = () => {
     function sendEmail(e){
       e.preventDefault();
 
-      emailjs.sendForm('service_8m0qu7x', 'template_dzs30fb', e.target,'soKLycPI6FMu0mJ2K')
+      emailjs.sendForm('service_pi2u12a', 'template_k2a43fo', e.target,'JV740cJy3BeikRlho')
       .then(res=>{
         swal('Enviado', 'E-mail enviado com sucesso !', 'success');
       })

@@ -264,17 +264,6 @@
     }
 }
 
-@media (max-width:425px){ /* --------------------------------------- 425px*/
-
-    .user-comment{
-        width: 183px;  
-    }
-
-    .user-name{
-        width: 183px;
-    }
-}
-
 @media (max-width:414px){ /* --------------------------------------- 414px*/
 
     .user-comment{
@@ -801,6 +790,19 @@
     
     .p-title-comment{
         font-size: 22px;
+    }
+
+    .user-comment{
+        width: 183px;  
+    }
+
+    .user-name{
+        width: 183px;
+    }
+
+    .slider-comments{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import CorpoSofa from '../../Components/Pagina-Sofa-Projeto-Integrador/CorpoSofa/Sofa';
+import CorpoSofa from '../../Components/Sofas/CorpoSofa/Sofa';
 
 function PagesSofas () {
     return(

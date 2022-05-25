@@ -1,17 +1,12 @@
 .comments-box{
     justify-content: center;
     display: flex;
-    /* width: 100%; */
-    /* height: 180px; */
-    border: 1px solid rgba(0, 0, 0, 0.144);
-    box-shadow: 5px 5px 10px rgba(15, 15, 15, 0.274);
+    border: 2px solid rgb(209, 192, 192);
     border-radius: 5px;
     list-style: none;
     padding-inline-start: 0px;
     margin-block-start: 0px;
-    background-color: rgb(242, 242, 242);
-    margin-left: 33px;
-    margin-right: 33px;
+    background-color:#2a2a2c;
 }
 
 .user-name{
@@ -26,11 +21,11 @@
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
-    color: rgba(82, 76, 76, 0.836);
+    color: rgba(255, 255, 255, 0.836);
 }
 
 .user-comment{
-    border-left: 2px solid #18181817;
+    border-left: 2px solid #ffffff17;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,5 +36,5 @@
     font-size: 16px;
     padding-right: 10px;
     padding-left: 10px;
-    color: rgba(82, 76, 76, 0.836);
+    color: rgba(255, 255, 255, 0.836);
 }
